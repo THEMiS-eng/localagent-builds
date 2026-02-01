@@ -1,16 +1,16 @@
 {
-  "build": "1.0.005",
-  "released": "2026-02-01T14:30:00Z",
+  "build": "1.0.006",
+  "released": "2026-02-01T15:15:00Z",
   "modules": {
     "localagent": "0.1.0",
-    "localagent-service": "3.3.031",
+    "localagent-service": "3.3.032",
     "ai-chat-module-pro": "0.1.0",
     "prompt-linter": "0.1.0",
-    "themis-ui": "0.1.6",
+    "themis-ui": "0.1.7",
     "dashboard": "0.1.0",
     "skills-engine": "0.1.0",
     "whisper-module": "0.1.0"
   },
   "changelog_url": "https://github.com/THEMiS-eng/localagent-builds/blob/main/CHANGELOG.md",
-  "download_url": "https://github.com/THEMiS-eng/localagent-builds/releases/download/v1.0.005/localagent-build-1.0.005.zip"
+  "download_url": "https://github.com/THEMiS-eng/localagent-builds/releases/download/v1.0.006/localagent-build-1.0.006.zip"
 }
