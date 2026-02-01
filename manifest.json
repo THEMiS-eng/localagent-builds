@@ -1,9 +1,9 @@
 {
-  "build": "1.0.007",
-  "released": "2026-02-01T15:30:00Z",
+  "build": "1.0.008",
+  "released": "2026-02-01T16:00:00Z",
   "modules": {
     "localagent": "0.1.0",
-    "localagent-service": "3.3.033",
+    "localagent-service": "3.3.034",
     "ai-chat-module-pro": "0.1.0",
     "prompt-linter": "0.1.0",
     "themis-ui": "0.1.8",
@@ -12,24 +12,24 @@
     "whisper-module": "0.1.0"
   },
   "release_notes": {
-    "summary": "Module updates visible in Release Notes modal",
+    "summary": "Install Update button now works - downloads from GitHub",
     "highlights": [
-      "Release Notes modal shows which modules have updates",
-      "Each module shows current → latest version"
+      "Install Update downloads build from GitHub",
+      "Automatic module installation",
+      "Restart notification after update"
     ],
     "changes": [
       {
-        "module": "themis-ui",
-        "version": "0.1.8",
-        "changes": ["Module updates displayed in Release Notes modal"]
-      },
-      {
-        "module": "localagent-service", 
-        "version": "3.3.033",
-        "changes": ["API returns release_notes from manifest"]
+        "module": "localagent-service",
+        "version": "3.3.034",
+        "changes": [
+          "New install_from_github() function",
+          "Downloads zip from GitHub releases",
+          "Extracts and runs INSTALL.sh automatically"
+        ]
       }
     ]
   },
   "changelog_url": "https://github.com/THEMiS-eng/localagent-builds/blob/main/CHANGELOG.md",
-  "download_url": "https://github.com/THEMiS-eng/localagent-builds/releases/download/v1.0.007/localagent-build-1.0.007.zip"
+  "download_url": "https://github.com/THEMiS-eng/localagent-builds/releases/download/v1.0.008/localagent-build-1.0.008.zip"
 }
